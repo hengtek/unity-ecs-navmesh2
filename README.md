@@ -20,9 +20,11 @@ No movement on the `Y` axis, the original repo didnt appear to implement this.
 Still some leftover UnityEngine types to translate to the new math library types.
 
 
+##
+other cool dots pathfinding projects - 
 
-
-
+https://github.com/reeseschultz/ReeseUnityDemos
+https://github.com/Antypodish/Unity_DOTS_NodePathFinding
 
 
 
