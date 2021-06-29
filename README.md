@@ -1,4 +1,4 @@
-# zulfa juniadi's dots pathfinding repo updated to entities 0.17
+## zulfa juniadi's dots pathfinding repo updated to entities 0.17
 
 Notes
 
@@ -11,10 +11,13 @@ To move an agent, set its `destination` & its `status` to `Status.Requested`.
 
 See `AgentAuthoring` conversion interface for example on use.
 
+The AgentAvoidanceSystem has been updated to compile but not actually made usable.
 
+## Caveats/bugs/other
 
-
-
+if the batch size for the navmesh query jobs is set too low, entities will stop moving. currently it is `JobsUtility.MaxJobThreadCount * 64` which might be too high but lower counts with high entity numbers cause very unpredictable behaviour.
+No movement on the `Y` axis, the original repo didnt appear to implement this.
+Still some leftover UnityEngine types to translate to the new math library types.
 
 
 
