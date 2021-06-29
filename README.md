@@ -1,4 +1,4 @@
-# zulfa juniadi's dots pathfinding reoo updated to entities 0.17
+# zulfa juniadi's dots pathfinding repo updated to entities 0.17
 
 Notes
 
