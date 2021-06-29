@@ -9,7 +9,7 @@ To move an agent, set its `destination` & its `status` to `Status.Requested`.
 
 `CopyRotationFromNavAgent` && `CopyPositionToNavAgent` are untested.
 
-See `AgentAuthoring` conversion interface
+See `AgentAuthoring` conversion interface for example on use.
 
 
 
